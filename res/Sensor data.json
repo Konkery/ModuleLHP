@@ -1,0 +1,91 @@
+{
+    "Value": [
+    {
+        "ID": "01-01-001-1-1",
+        "Name": "VL6180",
+        "Type": "sensor",
+        "TypeInSignal": "analog",
+        "TypeOutSignal": "digital",
+        "NumPortsRequired": [
+            2
+        ],
+        "QuantityChannel": 2,
+        "NumChannel": 1,
+        "NameChannel": "proximity",
+        "Bus": [
+            "i2c"
+        ],
+        "ManufacturingData": {
+            "IDManufacturing": [
+                {
+                    "Amperka": "AMP-B072"
+                }
+            ],
+            "IDsupplier": [
+                {
+                    "Amperka": "AMP-B072"
+                }
+            ],
+            "HelpSens": "Proximity and light sensor (Troyka-module)"
+        }
+    },
+    {
+        "ID": "01-01-001-1-2",
+        "Name": "VL6180",
+        "Type": "sensor",
+        "TypeInSignal": "analog",
+        "TypeOutSignal": "digital",
+        "NumPortsRequired": [
+            2
+        ],
+        "QuantityChannel": 2,
+        "NumChannel": 2,
+        "NameChannel": "light",
+        "Bus": [
+            "i2c"
+        ],
+        "ManufacturingData": {
+            "IDManufacturing": [
+                {
+                    "Amperka": "AMP-B072"
+                }
+            ],
+            "IDsupplier": [
+                {
+                    "Amperka": "AMP-B072"
+                }
+            ],
+            "HelpSens": "Proximity and light sensor (Troyka-module)"
+        }
+    },
+    {
+        "ID": "01-01-001-0-1",
+        "Name": "GL5528",
+        "Type": "sensor",
+        "TypeInSignal": "analog",
+        "TypeOutSignal": "analog",
+        "NumPortsRequired": [
+            1
+        ],
+        "QuantityChannel": 1,
+        "NumChannel": 1,
+        "NameChannel": "light",
+        "Bus": [
+            "none"
+        ],
+        "ManufacturingData": {
+            "IDManufacturing": [
+                {
+                    "Amperka": "AMP-B004"
+                }
+            ],
+            "IDsupplier": [
+                {
+                    "Amperka": "AMP-B004"
+                }
+            ],
+            "HelpSens": "Light sensor (Troyka-module)"
+        }
+    }
+]
+}

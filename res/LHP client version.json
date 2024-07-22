@@ -1,0 +1,44 @@
+{ 
+    "TimeStamp":    122465768,
+    "MetaData":     {                   
+                        "Type":     "client",
+                        "ID":       "MAS-M008",
+                        "Command":  [
+                                        {
+                                            "com":  "repl-sub",
+                                            "arg":  []
+                                        },
+                                        {
+                                            "com":  "sensor-sub",
+                                            "arg":  []
+                                        },
+                                        {
+                                            "com":  "process-sub",
+                                            "arg":  []
+                                        },
+                                        {
+                                            "com":  "repl-write",
+                                            "arg":  ["console.log('Hello world')"]
+                                        },
+                                        {
+                                            "com":  "process-get-time",
+                                            "arg":  []
+                                        },
+                                        {
+                                            "com":  "process-set-time",
+                                            "arg":  [122465768]
+                                        },
+                                        {
+                                            "com":  "process-set-ip",
+                                            "arg":  [
+                                                        "192.168.1.24",
+                                                        "255.255.255.0",
+                                                        "192.168.1.254"
+                                                    ]
+                                        }
+
+                                    ],
+                        "CRC": 123123414
+                    },
+    "Value":        ""
+} 
