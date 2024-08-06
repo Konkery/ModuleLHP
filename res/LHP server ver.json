@@ -1,7 +1,7 @@
 { 
     "TimeStamp":    122465768,
     "MetaData":     {                   
-                        "Type":     "client",
+                        "Type":     "server",
                         "ID":       "MAS-M008",
                         "Command":  [
                                         {

@@ -1,0 +1,290 @@
+{
+	{
+		"name": "DS1307",
+		"module": "DS1307.min.js",
+		"description": "Часы реального времени. Напряжение внешнего питания: 4,5–5,5 В. Напряжение питания батарейки: 2–3,5 В. Потребляемый ток: 500 нА (≈6 месяцев на батарейке).Выходной интерфейс: I²C. Габариты: 25,4×25,4 мм",
+		"article": "02-501-0108-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["ISO"],
+		"channelMeasures": ["ISO date format"],
+		"manufacturingData": {
+			"manufacturer": "Mouser Electronics",
+			"manufactureURL": "https://www.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS1307?qs=1eQvB6Dk1vjgsJfdc7e59A%3D%3D",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-rtc",
+			"datasheetURL": "https://cxem.net/arduino/files/arduino120_DS1307_datashit.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "SHT31",
+		"module": "MeteoSHT31.min.js",
+		"description": "Цифровой метеодатчик (Troyka-модуль). Чип: SHT31. Напряжение питания: 3.3–5 В. Интерфейс: I²C. Адрес модуля: 0x44 (по умолчанию) / 0x45. Габариты: 25,4×25,4 мм",
+		"article": "02-501-0105-201-0006",
+		"quantityChannel": 2,
+		"channelNames": ["temperature", "humidity"],
+		"channelMeasures": ["°C", "%"],
+		"manufacturingData": {
+			"manufacturer": "Sensirion",
+			"manufactureURL": "https://sensirion.com/products/catalog/SHT31-DIS-B",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-meteo-sensor",
+			"datasheetURL": "https://wiki.amperka.ru/_media/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B:troyka-meteo-sensor:sht31_datasheet.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "LPS25HB",
+		"module": "MeteoLPS25HB.min.js",
+		"description": "Барометр v2 (Troyka-модуль). МЭМС-датчик: барометр LPS25HB. Интерфейс: I²C. I²C-адрес: Без перемычки: 0x5C, С перемычкой: 0x5D. Максимальная чувствительность: 2,4×10-4 мбар. Диапазон измерений давления: 260–1260 мбар. Диапазон измерений температуры: 0–65 °C. Напряжение питания: 3,3–5 В. Потребляемый ток: до 10 мА. Размеры: 25,4×25,4×10,1 мм",
+		"article": "02-501-0105-201-0005",
+		"quantityChannel": 3,
+		"channelNames": ["temperature", "pressure", "altitude"],
+		"channelMeasures": ["°C", "kPa", "m"],
+		"manufacturingData": {
+			"manufacturer": "STMicroelectronics",
+			"manufactureURL": "https://www.st.com/en/mems-and-sensors/lps25hb.html",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-barometer",
+			"datasheetURL": "https://www.st.com/resource/en/datasheet/lps25hb.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "MQ3",
+		"module": "AirAlcoholMQ3.min.js",
+		"description": "Датчик паров спирта MQ-3. Напряжение питания нагревателя: 5 В. Напряжение питания датчика: 3,3–5 В. Потребляемый ток: 150 мА. Габариты: 25,4×25,4 мм.",
+		"article": "02-501-0110-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["alcohol"],
+		"channelMeasures": ["ppm"],
+		"manufacturingData": {
+			"manufacturer": "Winsen Electronics",
+			"manufactureURL": "https://www.winsen-sensor.com/product/mq-3b.html?searchid=4524",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-mq3-gas-sensor",
+			"datasheetURL": "https://www.sparkfun.com/datasheets/Sensors/MQ-3.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "MQ4",
+		"module": "AirMethaneMQ4.min.js",
+		"description": "Датчик природного газа MQ-4. Напряжение питания нагревателя: 5 В. Напряжение питания датчика: 3,3–5 В. Потребляемый ток: 150 мА. Габариты: 25,4×25,4 мм.",
+		"article": "02-501-0110-201-0002",
+		"quantityChannel": 1,
+		"channelNames": ["methane"],
+		"channelMeasures": ["ppm"],
+		"manufacturingData": {
+			"manufacturer": "Winsen Electronics",
+			"manufactureURL": "https://www.winsen-sensor.com/sensors/combustible-sensor/mq4.html",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-mq4-gas-sensor",
+			"datasheetURL": "https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "MQ9",
+		"module": "AirCarbonylMQ9.min.js",
+		"description": "Датчик горючих и угарного газов MQ-9. Напряжение питания нагревателя: 5 В. Напряжение питания датчика: 3,3–5 В. Потребляемый ток: 150 мА. Габариты: 25,4×25,4 мм.",
+		"article": "02-501-0110-201-0003",
+		"quantityChannel": 1,
+		"channelNames": ["carbonyl"],
+		"channelMeasures": ["ppm"],
+		"manufacturingData": {
+			"manufacturer": "Winsen Electronics",
+			"manufactureURL": "https://www.winsen-sensor.com/sensors/co-sensor/mq-9b.html",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-mq9-gas-sensor",
+			"datasheetURL": "https://www.electronicoscaldas.com/datasheet/MQ-9_Hanwei.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "CCS811",
+		"module": "AirQualityCCS811.min.js",
+		"description": "Датчик качества воздуха CCS811 в корпусе. Твердотельный сенсор газа: ams CCS811. Диапазон измерения концентрации CO2: 400–8192 ppm. Диапазон измерения концентрации TVOC: 0–1187 ppb. Интерфейс: I²C. Адрес модуля: 0x5A (по умолчанию) / 0x5B. Напряжение питания: 3,3–5 В. Потребляемый ток: до 30 мА. Частота опроса: 0,25 / 1 / 10 / 60 с. Длина кабеля: 0,5 м. Размеры: 60×30×18 мм.",
+		"article": "02-501-0110-238-0001",
+		"quantityChannel": 2,
+		"channelNames": ["CO2", "TVOC"],
+		"channelMeasures": ["ppm", "ppb"],
+		"manufacturingData": {
+			"manufacturer": "Sciosense",
+			"manufactureURL": "https://www.sciosense.com/temperature-and-humidity-sensors/",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/sensor-co2-ccs811-with-case",
+			"datasheetURL": "https://wiki.amperka.ru/_media/products:sensor-co2-ccs811-with-case:ccs811-datasheet.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "Buzzer",
+		"module": "Buzzer.min.js",
+		"description": "Зуммер (Troyka-модуль). Номинальная частота: 4 кГц. Интенсивность: 80 дБ. Номинальное рабочее напряжение: 5 В. Габариты: 25,4×25,4 мм. Форм фактор: Troyka-модуль. Система разъемного соединения: -.",
+		"article": "02-501-0204-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["freq"],
+		"channelMeasures": ["Hz"],
+		"manufacturingData": {
+			"manufacturer": "JL World",
+			"manufactureURL": "https://www.jlworld.com/products/pin-piezo/",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-buzzer",
+			"datasheetURL": "https://files.amperka.ru/datasheets/hpa17a.pdf"
+		},
+		"revision": 0,
+		"version": 0 
+	},
+	{
+		"name": "GL5528",
+		"module": "LightGL5528.min.js",
+		"description": "Датчик освещённости (Troyka-модуль). Датчик: GL5528. Напряжение питания: 3-5В.",
+		"article": "02-501-0105-201-0003",
+		"quantityChannel": 2,
+		"channelNames": ["light", "resistance"],
+		"channelMeasures": ["lux", "ohm"],
+		"manufacturingData": {
+			"manufacturer": "Senba Sensing Tech",
+			"manufactureURL": "https://www.senbasensor.com/visible-light-sensor/56.html",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-light-sensor",
+			"datasheetURL": "https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "VL6180",
+		"module": "VL6180.min.js",
+		"description": "Датчик приближения и освещённости. Напряжение питания: 3,3–5 В. Потребляемый ток: до 300 мкА. Выходной интерфейс: I²C (адрес: 0x29). Диапазон измеряемых расстояний: 0–100 мм. Диапазон измерения освещённости: 0,08–100000 лк. Температурный диапазон: −40…+85 °C. Габариты: 25,4×25,4 м.",
+		"article": "02-501-0105-201-0004",
+		"quantityChannel": 2,
+		"channelNames": ["light", "range"],
+		"channelMeasures": ["lux", "mm"],
+		"manufacturingData": {
+			"manufacturer": "STMicroelectronics",
+			"manufactureURL": "https://www.st.com/en/imaging-and-photonics-solutions/vl6180.html",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-proximity",
+			"datasheetURL": "https://www.st.com/resource/en/datasheet/vl6180.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "FT5519M",
+		"module": "Servo.min.js",
+		"description": "Сервопривод Feetech FT5519M 180°. Модель: Feetech FT5519M. Сигнал управления: PDM (Pulse-Duration Modulation). Угол поворота: до 180°. Напряжение питания: 4,8–7,2 В. Крутящий момент: 19 кг·см. Скорость вращения: 60° за 0,2 сек (180° за 0,6 сек). Потребляемый ток: 200 мА. Ток блокировки: 1,9 А. Внутренний интерфейс: цифровой. Тип мотора: коллекторный. Материал шестерней: титан. Материал корпуса: пластик, алюминий. Размеры: 54×20×47 мм. Вес: 56 г.",
+		"article": "02-501-0209-205-0001",
+		"quantityChannel": 1,
+		"channelNames": ["position"],
+		"channelMeasures": ["deg"],
+		"manufacturingData": {
+			"manufacturer": "Feetech",
+			"manufactureURL": "https://www.feetechrc.com/products-page-4?keyword=digital",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/servo-fs5519m",
+			"datasheetURL": "https://robototehnika.ru/file/FT5519M.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "FS90",
+		"module": "Servo.min.js",
+		"description": "Микросервопривод Feetech FS90 180°. Модель: Feetech FS90. Сигнал управления: PDM (Pulse-Duration Modulation). Угол поворота: до 180°. Напряжение питания: 4,8–6 В. Номинальный крутящий момент: 0,4 кг·см. Пиковый крутящий момент: 1,3 кг·см. Скорость вращения: 60° за 0,12 сек (180° за 0,36 сек). Потребляемый ток: 100 мА. Ток блокировки: 700 мА. Внутренний интерфейс: аналоговый. Материал шестерней: нейлон. Материал корпуса: пластик. Размеры: 32,3×12,1×29,7 мм. Вес: 9 г.",
+		"article": "02-501-0209-205-0001",
+		"quantityChannel": 1,
+		"channelNames": ["position"],
+		"channelMeasures": ["deg"],
+		"manufacturingData": {
+			"manufacturer": "Feetech",
+			"manufactureURL": "https://www.feetechrc.com/products-page-4?keyword=digital",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/servo-fs90",
+			"datasheetURL": "https://www.pololu.com/file/0J1435/FS90-specs.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "TMP36",
+		"module": "ThermoTMP36.min.js",
+		"description": "Аналоговый термометр (Troyka-модуль). Диапазон измеряемой температуры: −40…+125 °C. Точность: ±1 °C при температуре 25 °C, ±3 °C на всём диапазоне измерения. Напряжение питания: 2,7–5,5 В. Потребляемый ток: 50 мкА. Габариты: 25,4×25,4 мм.",
+		"article": "02-501-0105-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["temperature"],
+		"channelMeasures": ["°C"],
+		"manufacturingData": {
+			"manufacturer": "Analog Devices",
+			"manufactureURL": "https://www.analog.com/en/products/tmp36.html",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-temperature-sensor",
+			"datasheetURL": "https://www.arduino.cc/en/uploads/Main/TemperatureSensor.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "Potentiometer",
+		"module": "Potentiometer.min.js",
+		"description": "Потенциометр. Сопротивление: 10 кОм. Тип потенциометра: линейный. Угол поворота движка: 300°. Размеры: 25,4×25,4×35,1 мм. Форм фактор: Troyka-модуль. Система разъемного соединения: -.",
+		"article": "02-501-0103-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["position"],
+		"channelMeasures": ["deg"],
+		"manufacturingData": {
+			"manufacturer": "ACP Technologies",
+			"manufactureURL": "https://www.acptechnologies.com/catalogue/potentiometers/ca9-ce9/",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-potentiometer",
+			"datasheetURL": "https://wiki-content.arduino.cc/documents/datasheets/ACP_potentiometers.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "INA219",
+		"module": "PowerINA219.min.js",
+		"description": "Датчик силы тока и напряжения INA219 I2C. Габариты 26 × 22 × 12 mm. Чип: INA219. Питание: 3-5В. Потребляемый ток: до 1 мА. Диапазон измеряемых напряжений: до 26 В. Диапазон измерений силы тока: до 3.2 А. Интерфейс: I2C. Разрешение: 12 бит. Рабочая температура: от -40 °C до +85 °C. Вес: 4гр.",
+		"article": "02-501-0111-000-0001",
+		"quantityChannel": 4,
+		"channelNames": ["vshunt", "vbus", "current", "power"],
+		"channelMeasures": ["mV", "V", "A", "mW"],
+		"manufacturingData": {
+			"manufacturer": "Texas Instruments",
+			"manufactureURL": "https://www.ti.com/product/INA219",
+			"distributor": "Amperkot",
+			"distributorURL": "https://amperkot.ru/products/datchik_silyi_toka_i_napryazheniya_ina219_i2c/39163404.html",
+			"datasheetURL": "https://cdn-shop.adafruit.com/datasheets/ina219.pdf"
+		},
+		"revision": 0,
+		"version": 0
+	},
+	{
+		"name": "INA3221",
+		"module": "PowerINA3221.min.js",
+		"description": "Трехканальный датчик напряжения INA3221 I2C. Тип интерфейса: I2C. 12-разрядный АЦП. Максимум измерений тока: ±1,638 А. Максимум измерений напряжения: 26 Вольт. Разрешающая способность 0,4 мА. Сопротивление шунтов: 0,1 Ом. Напряжение питания: от 2,7 до 5,5 Вольт. Размер: 38*32 мм.",
+		"article": "02-501-0111-000-0002",
+		"quantityChannel": 12,
+		"channelNames": ["vshunt1", "vbus1", "current1", "power1", "vshunt2", "vbus2", "current2", "power2", "vshunt3", "vbus3", "current3", "power3"],
+		"channelMeasures": ["mV", "V", "A", "mW", "mV", "V", "A", "mW", "mV", "V", "A", "mW"],
+		"manufacturingData": {
+			"manufacturer": "Texas Instruments",
+			"manufactureURL": "https://www.ti.com/product/INA3221",
+			"distributor": "Amperkot",
+			"distributorURL": "https://amperkot.ru/products/datchik_silyi_toka_i_napryazheniya_ina219_i2c/39163404.html",
+			"datasheetURL": "https://www.alldatasheet.com/datasheet-pdf/pdf/457255/TI1/INA3221.html"
+		},
+		"revision": 0,
+		"version": 0
+	},
+}

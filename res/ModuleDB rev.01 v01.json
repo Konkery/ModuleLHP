@@ -1,0 +1,291 @@
+{
+	{
+		"name": "RTC",
+		"module": "DS1307.min.js",
+		"description": "Real time clock. Power supply is 3.3 - 5.5V and I2C interface",
+		"article": "02-501-0108-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["ISO"],
+		"channelMeasures": ["ISO date format"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-rtc"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "SHT31",
+		"module": "MeteoSHT31.min.js",
+		"description": "Meteo sensor. Power supply is 3.3V - 5V. I2C interface",
+		"article": "02-501-0105-201-0006",
+		"quantityChannel": 2,
+		"channelNames": ["temperature", "humidity"],
+		"channelMeasures": ["degrees celcius", "percentage"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-meteo-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "LPS25HB",
+		"module": "MeteoLPS25HB.min.js",
+		"description": "Meteo sensor. Power supply is 3.3V - 5V. I2C interface",
+		"article": "02-501-0105-201-0005",
+		"quantityChannel": 3,
+		"channelNames": ["temperature", "pressure", "altitude"],
+		"channelMeasures": ["degrees celcius", "kPa", "meters above sea level"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-barometer"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "MQ3",
+		"module": "AirAlcoholMQ3.min.js",
+		"description": "Analog sensor for alcohol concentration in the air. Power supply is 3.3V - 5V for sensor and 5V for heater.",
+		"article": "02-501-0110-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["alcohol"],
+		"channelMeasures": ["ppm"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-mq3-gas-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "MQ4",
+		"module": "AirMethaneMQ4.min.js",
+		"description": "Analog sensor for methane concentration in the air. Power supply is 3.3V - 5V for sensor and 5V for heater.",
+		"article": "02-501-0110-201-0002",
+		"quantityChannel": 1,
+		"channelNames": ["methane"],
+		"channelMeasures": ["ppm"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-mq4-gas-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "MQ9",
+		"module": "AirCarbonylMQ9.min.js",
+		"description": "Analog sensor for methane concentration in the air. Power supply is 3.3V - 5V for sensor and 5V for heater.",
+		"article": "02-501-0110-201-0003",
+		"quantityChannel": 1,
+		"channelNames": ["carbonyl"],
+		"channelMeasures": ["ppm"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-mq9-gas-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "CCS811",
+		"module": "AirQualityCCS811.min.js",
+		"description": "Air quality sensor. Measurement range for CO2 is 400 to 8192 ppm, and for TVOC is 0 - 1187 ppb. I2C interface.",
+		"article": "02-501-0110-238-0001",
+		"quantityChannel": 2,
+		"channelNames": ["CO2", "TVOC"],
+		"channelMeasures": ["ppm", "ppb"],
+		"manufacturingData": {
+			"manufacturer": "Sciosense",
+			"manufactureURL": "https://www.sciosense.com/",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/sensor-co2-ccs811-with-case"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "Buzzer",
+		"module": "Buzzer.min.js",
+		"description": "Frequency up to 4kHz. Sound intencity - 80dB. Power supply - 5V",
+		"article": "02-501-0204-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["freq"],
+		"channelMeasures": ["Hz"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-buzzer"
+		},
+		"revision": 1,
+		"version": 1 
+	},
+	{
+		"name": "GL5528",
+		"module": "LightSensor.min.js",
+		"description": "Light and resistance sensor. Power supply - 5V.",
+		"article": "02-501-0105-201-0003",
+		"quantityChannel": 2,
+		"channelNames": ["light", "resistance"],
+		"channelMeasures": ["lux", "ohm"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-light-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "VL6180",
+		"module": "VL6180.min.js",
+		"description": "Proximity and light sensor. Power supply is 3.3V - 5V. I2C interface.",
+		"article": "02-501-0105-201-0004",
+		"quantityChannel": 2,
+		"channelNames": ["light", "range"],
+		"channelMeasures": ["lux", "mm"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-proximity"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "FT5519M",
+		"module": "Servo.min.js",
+		"description": "Servo motor. 180 degrees rotation. Torque - 19kg*sm. Power supply is 4.8V - 7.2V",
+		"article": "02-501-0209-205-0001",
+		"quantityChannel": 1,
+		"channelNames": ["position"],
+		"channelMeasures": ["angular degrees"],
+		"manufacturingData": {
+			"manufacturer": "Feetech",
+			"manufactureURL": "https://www.feetechrc.com/",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/servo-fs5519m"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "FS90",
+		"module": "Servo.min.js",
+		"description": "Servo motor. 180 degrees rotation. Torque - 0.4kg*sm. Power supply is 4.8V - 6V",
+		"article": "02-501-0209-205-0001",
+		"quantityChannel": 1,
+		"channelNames": ["position"],
+		"channelMeasures": ["angular degrees"],
+		"manufacturingData": {
+			"manufacturer": "Feetech",
+			"manufactureURL": "https://www.feetechrc.com/",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/servo-fs90"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "TMP36",
+		"module": "ThermoTMP36.min.js",
+		"description": "Analog thermometer. Working range is from -40C to 125C. Power supply is 2.7V - 5.5V",
+		"article": "02-501-0105-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["temperature"],
+		"channelMeasures": ["degrees celcius"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-temperature-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "TMP36",
+		"module": "ThermoTMP36.min.js",
+		"description": "Analog thermometer. Working range is from -40C to 125C. Power supply is 2.7V - 5.5V",
+		"article": "02-501-0105-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["temperature"],
+		"channelMeasures": ["degrees celcius"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-temperature-sensor"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "Potentiometer",
+		"module": "Potentiometer.min.js",
+		"description": "Potentiometer with 10kOhm resistance. Supports 300 degrees rotation.",
+		"article": "02-501-0103-201-0001",
+		"quantityChannel": 1,
+		"channelNames": ["position"],
+		"channelMeasures": ["angular degrees"],
+		"manufacturingData": {
+			"manufacturer": "Amperka",
+			"manufactureURL": "https://amperka.ru",
+			"distributor": "Amperka",
+			"distributorURL": "https://amperka.ru/product/troyka-potentiometer"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "INA219",
+		"module": "PowerINA219.min.js",
+		"description": "Voltage and current meter. I2C interface. 0.1 Ohm shunt.",
+		"article": "02-501-0111-000-0001",
+		"quantityChannel": 4,
+		"channelNames": ["vshunt", "vbus", "current", "power"],
+		"channelMeasures": ["mV", "V", "A", "mW"],
+		"manufacturingData": {
+			"manufacturer": "Texas Instruments",
+			"manufactureURL": "https://www.ti.com",
+			"distributor": "Amperkot",
+			"distributorURL": "https://amperkot.ru/products/datchik_silyi_toka_i_napryazheniya_ina219_i2c/39163404.html"
+		},
+		"revision": 1,
+		"version": 1
+	},
+	{
+		"name": "INA3221",
+		"module": "PowerINA3221.min.js",
+		"description": "3-channel voltage and current meter. I2C interface. 0.1 Ohm shunts.",
+		"article": "02-501-0111-000-0002",
+		"quantityChannel": 12,
+		"channelNames": ["vshunt1", "vbus1", "current1", "power1", "vshunt2", "vbus2", "current2", "power2", "vshunt3", "vbus3", "current3", "power3"],
+		"channelMeasures": ["mV", "V", "A", "mW", "mV", "V", "A", "mW", "mV", "V", "A", "mW"],
+		"manufacturingData": {
+			"manufacturer": "Texas Instruments",
+			"manufactureURL": "https://www.ti.com",
+			"distributor": "Amperkot",
+			"distributorURL": "https://amperkot.ru/products/datchik_silyi_toka_i_napryazheniya_ina219_i2c/39163404.html"
+		},
+		"revision": 1,
+		"version": 1
+	},
+}

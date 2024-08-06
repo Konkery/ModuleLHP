@@ -6,7 +6,7 @@
                         "TimeStamp2": 122465768.32423,                       
                         "RegServices": "Sensor",                        
                         "Sensor": {
-                            "ID": "00-00-000-0-0",
+                            "ID": "XX",
                             "com": "",
                             "arg": []   
                         },
